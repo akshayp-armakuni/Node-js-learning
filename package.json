@@ -1,0 +1,15 @@
+{
+  "name": "node.js--udemy",
+  "version": "1.0.0",
+  "description": "Node.js Guide",
+  "main": "index.js",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon node index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
