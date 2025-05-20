@@ -2,14 +2,18 @@
   "name": "node.js--udemy",
   "version": "1.0.0",
   "description": "Node.js Guide",
-  "main": "index.js",
+  "main": "app.js",
   "devDependencies": {
     "nodemon": "^3.1.9"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon node index.js"
+    "start": "nodemon node app.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0"
+  }
 }
